@@ -39,36 +39,38 @@
   /* Testimonial carousel Section end*/
 
   /* section-jumbotron-left Start */
-  .section-jumbotron-left{
+  .section-jumbotron-left {
     margin-bottom: 10rem;
   }
   /* section-jumbotron-left end */
 
   /* Areas of social section start */
-  .social-media__title{
+  .social-media__title {
     text-align: center;
   }
-  .social-media__icon{
+  .social-media__icon {
     display: block;
     margin: 0 auto;
+  }
+  .social-media__right--img{
+    margin-top: 2rem;
   }
   /* Areas of social section end */
 
   /* Contact us */
-
-
-  /* Foooter Section */
-
-  .footer-nav__list{
+  .contact-us__right-before{
+    top: 18rem;
+  }
+  /* Footer Section */
+  .footer-nav__list {
     padding-bottom: 5rem;
   }
-  .footer-nav-link__right--padding{
+  .footer-nav-link__right--padding {
     padding-right: 6rem;
   }
   .footer-copyright__text {
     margin-top: 1.5rem;
   }
-
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -76,27 +78,27 @@
   .hero__content {
     width: 100%;
   }
-    /*=================== 
+  /*=================== 
   Package Plan Section
   ******************* */
-  .card-title{
+  .card-title {
     font-size: 2.5rem;
   }
-  .card-plan__text{
+  .card-plan__text {
     font-size: 1.5rem;
   }
-  .card-plan__price{
+  .card-plan__price {
     font-size: 3rem;
   }
 
-/*======================== 
+  /*======================== 
   Package Plan Section end
   ******************* */
   /* Footer Section*/
-  .footer-nav-link__right--padding{
+  .footer-nav-link__right--padding {
     padding-right: 0;
   }
-  .footer-social__icons{
+  .footer-social__icons {
     margin-left: 0;
   }
 }
@@ -106,47 +108,41 @@
   .hero__content {
     width: 100%;
   }
-     /*=================== 
+  /*=================== 
   Package Plan Section
   ******************* */
-  .card-title{
+  .card-title {
     font-size: 2.5rem;
   }
-  .card-plan__text{
+  .card-plan__text {
     font-size: 1.5rem;
   }
-  .card-plan__price{
+  .card-plan__price {
     font-size: 3rem;
   }
 
-/*======================== 
+  /*======================== 
   Package Plan Section end
   ******************* */
-  .contact-us__left{
+  .contact-us__left {
     width: 100%;
     /* margin-top: 316px; */
   }
-   /* Footer Section*/
-   .footer-nav-link__right--padding{
+  /* Footer Section*/
+  .footer-nav-link__right--padding {
     padding-right: 0;
   }
-  .footer-social__icons{
+  .footer-social__icons {
     margin-left: 0;
   }
 }
 
-
-@media (max-width:770px){
+@media (max-width: 770px) {
   .contact-us__left-side {
     margin: 0 auto;
     margin-top: 13rem;
+  }
+  .contact-us__left {
+    width: 90%;
+  }
 }
-.contact-us__left{
-  width: 90%;
-}
-
-
-}
-
-
-

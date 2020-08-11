@@ -299,7 +299,7 @@ Card Section
 .contact-us__img {
   border-radius: 2px;
   width: 96%;
-  height: 65rem;
+  height: auto;
 }
 
 .contact-us__right {
